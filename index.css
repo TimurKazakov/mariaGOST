@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+form {
+    display: flex;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+    /*border: 1px solid brown;*/
+
+}
+
+div {
+    flex-basis: 45%;
+    border: 1px solid black;
+    margin: 15px 10px;
+    font-size: 15px;
+    flex-grow: 1;
+
+}
+
+.header label {
+    display: block;
+    margin: 10px;
+
+}
+
+.input-fields label {
+    display: block;
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.result-field {
+
+    flex-grow: 1;
+    /*flex-basis: 100%;*/
+    /*width: 100%;*/
+}
+
+.input-fields input {
+    margin: 0px 5px;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.color-red {
+    background: red;
+
+}

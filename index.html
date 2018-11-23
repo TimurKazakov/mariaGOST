@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maria ГОСТ</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<header>
+
+
+</header>
+
+
+<main>
+    <form class="main-form">
+        <div class="header">
+
+            <label><input type="radio" class="book-type" name="book-type" value="book">Книга</label>
+            <label><input type="radio" class="book-type" name="book-type" value="legal-act">Нормативно-правовой
+                акт</label>
+            <label><input type="radio" class="book-type" name="book-type" value="standards">Стандарты</label>
+            <label><input type="radio" class="book-type" name="book-type" value="deposited-scientific-papers">Депонированные
+                научные работы</label>
+            <label><input type="radio" class="book-type" name="book-type" value="thesis">Диссертация</label>
+            <label><input type="radio" class="book-type" name="book-type" value="abstract-of-thesis">Автореферат
+                диссертации</label>
+            <label><input type="radio" class="book-type" name="book-type" value="research-reports">Отчеты о
+                научно-исследовательсокй работе</label>
+            <label><input type="radio" class="book-type" name="book-type" value="electronic-resource">Электронный ресурс</label>
+            <label><input type="radio" class="book-type" name="book-type" value="article">Статья</label>
+        </div>
+        <div class="input-fields">
+
+            <label><input type="text" class="input-field" id="author" value="Казаков Т.Н.">Автор(ы)</label>
+            <label><input type="text" class="input-field" id="co-author" value="Казакова Л.Т, Казакова М.А.">Соавтор(ы)</label>
+            <label><input type="text" class="input-field" id="source" value="Какая-то книга">Источник</label>
+            <label><input type="text" class="input-field" id="publishing-house" value="Эксмо">Издательство</label>
+            <label><input type="text" class="input-field" id="year-of-publication" value="2018">Год издания</label>
+            <label><input type="text" class="input-field" id="page" value="153">Страница</label>
+            <label><input type="text" class="input-field" id="day-month-of-publication">День/месяц выпуска</label>
+            <label><input type="text" class="input-field" id="url-of-publication">URL(Адрес в интернете)</label>
+
+        </div>
+
+        <input type="submit" value="Преобразовать" id="gost-button">
+        <!--<button class="btn" id="gost-button2">Поехали</button>-->
+
+        <div class="result-field">
+            <p id="result" style=""> Здесь будет результат</p>
+        </div>
+
+    </form>
+
+
+</main>
+
+<script src="base-logic.js"></script>
+</body>
+</html>
